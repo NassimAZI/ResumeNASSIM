@@ -19,7 +19,7 @@
 
 # CakePHP 2
 **/images
-*.pdf
+**.pdf
 /app/tmp/*
 /app/Config/core.php
 /app/Config/database.php
