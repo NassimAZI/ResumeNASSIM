@@ -182,29 +182,47 @@
 			  <div class="col-md-12 ml-auto mr-auto">
 				<div class="row">
 				  <div class="col-md-6">
-					<div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+
+					<div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom" id ="vvvv"><a href="#myModal" >
 						<figure class="cc-effect"><img src="images/project-1.jpg"/>
 						  <figcaption>
 							<div class="h4">Application web</div>
 							<p>Developpement d'une application web de géstion</p>
 							<div class="container">
-							  <button class="btn btn-simple" id="mybtn">Learn More</button>
-							  
-		<div id="myModal" class="modal">
-	  <!-- Modal content -->
-	  <div class="modal-content">
-		<span class="close">&times;</span>
-		<p>Some text in the Modal..</p>
-	  </div>
+							  <button class="btn btn-simple" id="mybtn" >Learn More</button>
+							</div>
+						  </figcaption>
+						</figure></a></div>
+					 </div>
 
-	</div>
+
+ <!-- Modal -->
+		  <div class="modal" id="myModal" >
+		    <div class="modal-dialog">
+		    
+		      <!-- Modal content-->
+		      <div class="modal-content">
+		        <div class="modal-header">
+		          <button type="button" class="close" data-dismiss="modal">&times;</button>
+		          <h4 class="modal-title">Modal Header</h4>
+		        </div>
+		        <div class="modal-body">
+		          <p>Some text in the modal.</p>
+		        </div>
+		        <div class="modal-footer">
+		          
+		        </div>
+		      </div>
+		      
+		    </div>
+		  </div>
 
 		   <script>
 	// Get the modal
 	var modal = document.getElementById('myModal');
 
 	// Get the button that opens the modal
-	var btn = document.getElementById("mybtn");
+	var btn = document.getElementById("vvvv");
 
 	// Get the <span> element that closes the modal
 	var span = document.getElementsByClassName("close")[0];
@@ -226,11 +244,10 @@
 		}
 	}
 	</script>
-							</div>
-						  </figcaption>
-						</figure></a></div>
-						
-				  </div>
+
+
+
+
 				  <div class="col-md-6">
 					<div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
 						<figure class="cc-effect"><img src="images/project-3.jpg"/>
